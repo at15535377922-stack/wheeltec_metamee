@@ -1,0 +1,24 @@
+# 复制此文件为 config.yaml 并填入真实密钥
+# cp config.yaml.example config.yaml
+
+model:
+  model_name: qwen3-max
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: YOUR_DASHSCOPE_API_KEY
+
+navi:
+  base_url: http://127.0.0.1:8082
+
+sherpa:
+  base_dir: /home/wheeltec/metamee/mcp_server/sherpa-onnx
+  keywords: ["百应百应", "百应"]
+  keyword_score: 3
+  keyword_threshold: 0.05
+
+google:
+  api_key: YOUR_GOOGLE_API_KEY
+
+tencent:
+  appid: "YOUR_TENCENT_APPID"
+  secret_id: "YOUR_TENCENT_SECRET_ID"
+  secret_key: "YOUR_TENCENT_SECRET_KEY"

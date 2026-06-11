@@ -1,0 +1,51 @@
+# ========== Python 虚拟环境 ==========
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# ========== Python 缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+
+# ========== 日志文件 ==========
+*.log
+logs/
+
+# ========== 地图图片文件 (pgm 为二进制大文件，只保留 yaml/json) ==========
+envs/**/*.pgm
+envs/**/*.pgm.*
+
+# ========== 备份文件 ==========
+*.bak
+*.bak.*
+*.0428
+*.0511
+*.914
+*.915
+*.json.1
+*.origin
+*-dmx
+*~
+
+# ========== SLAM Flutter Web 编译产物 ==========
+slam/
+
+# ========== 含密钥的配置文件 (请复制 config.yaml.example 并填入真实密钥) ==========
+mcp_server/config/config.yaml
+
+# ========== MCP 模型/二进制文件 ==========
+mcp_server/model/
+mcp_server/sherpa-onnx/
+mcp_server/hysteria-linux-arm64
+
+# ========== 编辑器临时文件 ==========
+*.swp
+*.swo
+*.swn
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db

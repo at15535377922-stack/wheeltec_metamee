@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环境管理</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <div class="container">
+        <h1>环境管理</h1>
+        <!-- 地图管理 -->
+        <div class="section">
+            <h2>地图管理</h2>
+            <div class="map-list">
+                <h3>地图列表</h3>
+                <div class="map-actions">
+                    <button class="btn primary create-map">新建地图</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>地图名称</th>
+                            <th>map.yaml</th>
+                            <th>map.pgm</th>
+                            <th>waypoints.json</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for map in maps %}
+                        <tr class="{% if map.name == current_map %}active{% endif %}">
+                            <td>{{ map.name }}</td>
+                            <td>{% if map.has_map_yaml %}✓{% else %}✗{% endif %}</td>
+                            <td>{% if map.has_map_pgm %}✓{% else %}✗{% endif %}</td>
+                            <td>{% if map.has_waypoints %}✓{% else %}✗{% endif %}</td>
+                            <td>
+                                <button class="btn switch-map" data-map="{{ map.name }}">切换到此地图</button>
+                                <button class="btn delete-map" data-map="{{ map.name }}">删除地图</button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <div class="current-map">
+                    <p>当前地图: <strong>{{ current_map if current_map else '未设置' }}</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 应用管理 -->
+        <div class="section">
+            <h2>应用管理</h2>
+            <div class="app-container">
+                <!-- 建图部分 -->
+                <div class="app-section">
+                    <div class="app-header">
+                        <h3>建图</h3>
+                        <div class="status">
+                            <span class="status-indicator {% if mapping_status %}active{% endif %}">{{ '已启动' if mapping_status else '未启动' }}</span>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button class="btn start-mapping">启动建图</button>
+                        <button class="btn stop-mapping">停止建图</button>
+                        <button class="btn save-map">保存地图</button>
+                    </div>
+                </div>
+                
+                <!-- 导航部分 -->
+                <div class="app-section">
+                    <div class="app-header">
+                        <h3>导航</h3>
+                        <div class="status">
+                            <span class="status-indicator {% if nav_status %}active{% endif %}">{{ '已启动' if nav_status else '未启动' }}</span>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button class="btn start-navigation">启动导航</button>
+                        <button class="btn stop-navigation">停止导航</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 功能区 -->
+        <div class="section">
+            <h2>功能区</h2>
+            <div class="function-buttons">
+                <a id="remote-control" class="btn function">设备控制</a>
+                <a id="plan-manager" class="btn function">任务管理</a>
+            </div>
+        </div>
+
+        <!-- 环境基础信息配置 -->
+        <div class="section">
+            <h2>环境基础信息配置</h2>
+            <form action="/save_config" method="post">
+                <div class="form-group">
+                    <label for="metamee_ws">metamee_ws:</label>
+                    <input type="text" id="metamee_ws" name="metamee_ws" value="{{ metamee_ws }}">
+                </div>
+                <button type="submit" class="btn primary">保存</button>
+            </form>
+        </div>
+
+    </div>
+    
+    <!-- 新建地图对话框 -->
+    <div id="create-map-dialog" class="dialog">
+        <div class="dialog-content">
+            <span class="close-dialog">&times;</span>
+            <h3>新建地图</h3>
+            <div class="form-group">
+                <label for="map-name">地图名称:</label>
+                <input type="text" id="map-name" name="map-name" placeholder="请输入地图名称">
+            </div>
+            <div class="dialog-buttons">
+                <button class="btn primary" id="confirm-create-map">确定</button>
+                <button class="btn" id="cancel-create-map">取消</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 消息提示框 -->
+    <div id="message-box" class="message-box">
+        <div class="message-content"></div>
+    </div>
+    
+    
+</body>
+</html>

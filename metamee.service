@@ -1,0 +1,12 @@
+[Unit]
+Description=MetaMee Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/wheeltec/metamee/start.sh
+User=wheeltec
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

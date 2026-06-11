@@ -1,0 +1,107 @@
+[
+    {
+        "params": {
+            "waypoint_name": "G-1"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-0"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-3"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-2"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-5"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-8"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-6"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-4"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-7"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-9"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-10"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-11"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-12"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-13"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "\u5927\u5c4f\u5e55"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }
+]

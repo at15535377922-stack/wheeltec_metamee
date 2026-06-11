@@ -1,0 +1,226 @@
+[
+    {
+        "params": {
+            "waypoint_name": "G-0"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>Thanks for connecting! Maxon. </speak><speak> Hi, this is Daria. </speak>\nNice to meet all of you here! \n<speak>I\u2019ll be your guide today. Using Whale Cloud's digital human and LocalGPT technology, I was created as a digital clone of Daria. </speak> \n<speak>Our journey began in 2003 as ZTE soft, providing <phoneme alphabet=\"ipa\" ph=\"\u02ccbi\u02d0\u025bs\u02c8\u025bs\">BSS</phoneme> and  <phoneme alphabet=\"ipa\" ph=\"\u02cco\u028a\u02d0\u025bs\u02c8\u025bs\">OSS</phoneme> solutions worldwide.<break time=\"1s\"/></speak>\nIn twenty eighteen, we rebranded as Whale Cloud through a strategic partnership with Alibaba Cloud, combing telecom expertise with internet innovation. \n<speak>In 2024, we built a partnership with Ant Group, helping customers build next generation eWallets and super apps to advance financial inclusion. </speak>\n<speak> Looking ahead to the future, AI is at the core of our strategy, driving us into the \u201cAI-inside\u201d era and powering globalization at full speed.</speak>\n <speak> Now, with over 20 years of industry experience, we are specializing in digital transformations of telecommunications, Banks, governments and enterprises.   </speak>\n <speak> We proudly serve more than 800 customers across over 80 countries, supporting digital services for 1.8 billion subscribers.  </speak>\n<speak>  With this strong foundation, let\u2019s explore how Whale Cloud is shaping the future of digital transformation. </speak>"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-1"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>Whale Cloud\u2019s Digital Business Operation Platform empowers intelligent telcos by combining cloud native and AI-native capabilities. </speak>\n<speak>It enables operators to become more agile, customer centric. </speak>\n<speak>Moreover, the platform aids in establishing robust local digital ecosystems that connect partners, industries, and communities.\u00a0</speak>\n<speak>KPN, POST, Vodafone, and Claro are already innovating with our platform, serving over 700 million users worldwide.\u00a0 </speak>"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-2"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": " <speak>To support this vision, we are able to provide a comprehensive product portfolio that covers every step of the transformation journey. </speak>\n<speak>Our fullstack solutions cover customer engagement, Digital <phoneme alphabet=\"ipa\" ph=\"\u02ccbi\u02d0\u025bs\u02c8\u025bs\">BSS</phoneme>, <phoneme alphabet=\"ipa\" ph=\"\u02cco\u028a\u02d0\u025bs\u02c8\u025bs\">OSS</phoneme>, Data Intelligence, and Innovation. </speak>\n<speak>We guide customers end-to-end: from consulting, to delivery, managed services, and operations.</speak>\n<speak>Our solutions can be deployed flexibly across multiple cloud environments, including Alibaba Cloud, A W S, and Microsoft Azure.</speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-3"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>In addition to our strong market performance, Whale Cloud has been widely recognized across the industry. </speak>\n<speak>In 2024, Gartner recognized us in the Visionary Quadrant for our AI capabilities and acknowledged us multiple times as a Representative Vendor across various domains, including operator networks, business operations, and digital sovereignty. </speak> \n<speak>From TM Forum, we received the Excellence Awards in 2019, twenty twenty one, and 2023 for driving telecom digital transformation. </speak>\n<speak>From Frost & Sullivan, we received both twenty twentythree and twenty twentyfour Asia Pacific Telecom <phoneme alphabet=\"ipa\" ph=\"\u02ccbi\u02d0\u025bs\u02c8\u025bs\">BSS</phoneme><phoneme alphabet=\"ipa\" ph=\"\u02cco\u028a\u02d0\u025bs\u02c8\u025bs\">OSS</phoneme> Innovation Leadership Award.</speak>\n<speak>Building on our proven capabilities, we now turn to the technology solutions that drive real business transformation.</speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-4"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>This is LocalGPT, Whale Cloud\u2019s enterprise grade AI platform. </speak> It takes your data and knowledge and turns them into real AI capabilities.\n<speak>It starts by making your data ready for AI through three parts, knowledge management which builds an AI ready knowledge base, \u2018domain context\u2019 which aligns AI with your business systems, and model management which lets you choose between public LLMs or Whale Cloud\u2019s own. </speak>\nThen it moves to agent orchestration. \n<speak>You can design workflows, connect knowledge, and link systems. </speak>\n<speak>With simple drag and drop, you build and test AI agents for roles like customer service, sales, or operations. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-5"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>While LocalGPT enables smarter insights and automation, the Open Platform goes further. </speak>\n<speak>We provide an open, pre-integrated <phoneme alphabet=\"ipa\" ph=\"\u02ccbi\u02d0\u025bs\u02c8\u025bs\">BSS</phoneme><phoneme alphabet=\"ipa\" ph=\"\u02cco\u028a\u02d0\u025bs\u02c8\u025bs\">OSS</phoneme> ecosystem, a one-stop, continuously evolving digital platform, and fully O D A ready. </speak>\n<speak>The platform has three layers: Product Core as the foundation, DevStudio as the entry, and Dev Agents for intelligence and automation. </speak>\n<speak>With cloud-native, multi-container deployment across public, private, or hybrid clouds, it enables seamless integration and efficient end-to-end digital services. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-6"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "Let\u2019s see how digitalization is extending into various industries through our Smart X solutions. \n<speak>We deliver smart solutions for government, transportation, tobacco, and retail, covering city brains, campuses, traffic command, logistics, and retail platforms. </speak> \n<speak>Representative projects include smart highways in Pakistan, Sri Lanka, and Senegal, and safe city programs in Pakistan and Mozambique. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-7"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>With this technological foundation, we now turn to business transformation, where Whale Cloud helps carriers unlock 5G opportunities and beyond. </speak>\n5G is reshaping global connectivity.  \nWhale Cloud  is able to provide end-to-end 5G monetization solutions, covering the full business lifecycle from order to billing.\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-8"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>To power such large-scale industry applications, strong computing is essential, and this is where our Sovereign AI platform comes in. </speak>\n<speak>The platform provides fully localized deployment, giving enterprises full control over data sovereignty and information security. </speak>\n<speak>It supports mainstream China and international AI chips, enabling integration with both local and global ecosystems. </speak>\n<speak>Enterprises can run it as standalone AI infrastructure or build it on top of existing general computing systems.  </speak>\n<speak>Sovereign AI helps enterprises reduce costs, scale flexibly, and accelerate innovation, turning computing power into real business value. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-10"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak>With this solid computing foundation, we can now explore how WhaleDI AI framework helps improve business efficiency and intelligence. </speak>\nOur WhaleDI AI system supports three kinds of models: \nLarge language models for fine tuning and fast business use. \n<speak>Perception models for face recognition, OCR, and image analysis. </speak>\n<speak>And prediction models for churn, segmentation, and network optimization. </speak>\n<speak>On top of these, we built LocalGPT for enterprises. </speak>\n<speak>It deploys securely on premise, ensures compliance, and adapts to business workflows. </speak>\nTo meet different customer needs, we offer three paths: \n<speak>Everything as a Service, where the platform is delivered on demand. </speak>\n<speak>Beyond AI, a digital employee for <phoneme alphabet=\"ipa\" ph=\"\u02cckju\u02d0\u0259n\u02c8e\u026a\">Q&A</phoneme>, and knowledge tasks. </speak>\n<speak>Industry-focused solutions, like telecom, where AI is built into <phoneme alphabet=\"ipa\" ph=\"\u02ccbi\u02d0\u025bs\u02c8\u025bs\">BSS</phoneme> and  <phoneme alphabet=\"ipa\" ph=\"\u02cco\u028a\u02d0\u025bs\u02c8\u025bs\">OSS</phoneme> for automation.</speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-9"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "Next, let\u2019s see how these AI capabilities come alive. \n<speak>Our hyper personalized AI agent powers automated calls, smart customer service, and AI live streaming. </speak>\n<speak>It listens, speaks, thinks, and even looks like a human. </speak>\n <speak>With these capabilities, it delivers smooth, end-to-end AI experiences. </speak>\nThese agents can be applied across industries and tailored to any sector.\n <speak>For example,  in the Telecom Industry, the agent works as a customer service assistant, handling inquiries, giving marketing suggestions, and using gamified engagement. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-11"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "Next, let\u2019s see how we help companies turn AI into real business results, with our consulting and enablement services. \nWe offer end to end services, from strategy to execution. \n<speak>In AI scenario consulting, we help companies find key pain points, define practical use cases, match suitable technologies, design implementation plans, and realize business value. </speak>\n<speak>In model services, we support model training, optimization, and data governance, from small models to large ones. </speak>\n<speak>During development, we lower technical barriers, shorten cycles, and enable rapid iteration. </speak>\nAnd once in production, we use real time monitoring and dynamic optimization to deliver maximum business value."
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-12"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "Let\u2019s now look ahead to the future ecosystem, where telcos evolve into digital hubs. \n<speak>Our Super APP Eco Platform, connecting local services like hotels, food, movies and so on, onboarding more merchants, diversifying the app ecosystem, making life easier for users.  </speak>\n<speak>A great example is Claro Colombia. They unified inventory across online, instore, and agency shops, enabled in-store pickup and next-day delivery, connecting over 100 stores and 6000 agency shops. </speak>\n<speak>This led to a 30% boost in order efficiency, a 20% drop in stock shortages, and a much better experience for users. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-13"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "The future of telecommunications goes far beyond connectivity. \nMore and more enterprises are migrating their IT and business systems to the cloud and establishing a sovereign cloud that can be fully owned and managed by themselves. \n<speak>As you can see on the map, we\u2019ve launched cloud projects worldwide, from moving core systems to the cloud with KPN, POST,  <phoneme alphabet=\"ipa\" ph=\"'di\u02d0.to\u028a\">DITO</phoneme>, StarHub to innovation on local public clouds with Zain, Telkomsigma, and SCO. </speak>\nAnd many more are on the way.\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-14"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "Building on these foundations, the next step is to connect local public clouds into a truly global ecosystem. \nThis is where the Sovereign Cloud Global Alliance comes in.\nSaudi Arabia and Singapore show how we collaborate with a Home Operator and an Alliance Virtual Operator in each market. \nThis model allows operators to use a shared partner network, expanding cloud services efficiently while ensuring local compliance and operational excellence. \n<speak>Through this approach, we act as a strategic enabler for operators pursuing reliable, cross-border cloud expansion. </speak>\n"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-15"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "<speak><phoneme alphabet=\"ipa\" ph=\"\u02c8f\u026an.t\u025bk\">Fintech</phoneme> isn\u2019t just for financial institutions anymore, even many CSPs are using it to drive their own business growth. </speak>\n<speak>As a strategic partner of Alipay Plus, we work together to deliver inclusive financial services, reaching over 1.4 billion users worldwide. </speak>\n<speak>Alipay Plus is a one-stop platform combining payments, financial services, and lifestyle services. </speak>\nIts widespread adoption gives rich customer insights, helping us design innovative financial solutions for SMEs and individuals with complex needs. \n<speak>For example, we have GCash in the Philippines and Vodapay in South Africa, demonstrating how Alipay Plus can adapt to local markets and accelerate digital growth. </speak>\n<speak>That concludes the introduction to our exhibition hall. We look forward to working with you to bring these solutions to life.</speak>\nthank you very much for your time!"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }
+]

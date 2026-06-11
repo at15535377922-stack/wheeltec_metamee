@@ -1,0 +1,65 @@
+[
+    {
+        "params": {
+            "text": "\u4f60\u597d\uff0c\u6b22\u8fce\u6765\u5230\u6d69\u9cb8\u79d1\u6280\uff0c\u4e0b\u9762\u7531\u6211\u6765\u4e3a\u5927\u5bb6\u4ecb\u7ecd\u4ee5\u4e0b\u6d69\u9cb8\u79d1\u6280\u7684\u4e00\u4e9b\u53d1\u5c55\u60c5\u51b5"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "duration": "5"
+        }, 
+        "step_type": "sleep", 
+        "name": "sleep"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-0"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "\u6d69\u9cb8\u79d1\u6280\u6210\u7acb\u4e8e2003\u5e74\uff0c\u62e5\u6709\u4e0a\u4e07\u540d\u7814\u53d1\u4eba\u5458"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "duration": "5"
+        }, 
+        "step_type": "sleep", 
+        "name": "sleep"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-1"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }, 
+    {
+        "params": {
+            "text": "\u611f\u8c22\u5927\u5bb6\u7684\u8046\u542c"
+        }, 
+        "step_type": "speech", 
+        "name": "speech"
+    }, 
+    {
+        "params": {
+            "duration": "10"
+        }, 
+        "step_type": "sleep", 
+        "name": "sleep"
+    }, 
+    {
+        "params": {
+            "waypoint_name": "G-2"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }
+]

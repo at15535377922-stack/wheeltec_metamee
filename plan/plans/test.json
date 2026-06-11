@@ -1,0 +1,9 @@
+[
+    {
+        "params": {
+            "waypoint_name": "G-0"
+        }, 
+        "step_type": "navigation", 
+        "name": "navigation"
+    }
+]

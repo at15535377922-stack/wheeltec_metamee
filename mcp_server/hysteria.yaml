@@ -1,0 +1,8 @@
+server: hysteria.miuros.moe:1444
+auth: enhjdmJubQ==
+tls:
+  insecure: true
+http:
+  listen: 0.0.0.0:7890
+
+
